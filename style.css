@@ -3,10 +3,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #222; /* Dark background color */
+  color: #fff; /* White text color */
 }
 
 html {
@@ -14,15 +17,15 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #fff; /* White text color */
 }
 
 /* Transition */
 a,
 .btn {
   transition: all 300ms ease;
+  color: #fff; /* White text color */
 }
-
 
 /* DESKTOP NAV */
 
@@ -35,8 +38,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 15vh;
-  border: solid black 0.5px;
-  ;
+  background-color: #222; /* Dark background color for the navbar */
+  border: solid #444 0.5px; /* Dark border color */
 }
 
 .nav-links {
@@ -46,7 +49,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: #fff; /* White text color for navbar links */
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -89,19 +92,19 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
-  transition: all 0.3 ease-in-out;
+  background-color: #fff; /* White color for hamburger icon lines */
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-links {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: #222; /* Dark background color for the menu links */
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-links a {
@@ -109,9 +112,9 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: #fff; /* White text color for menu links */
   text-decoration: none;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-links li {
@@ -154,6 +157,8 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  background-color: #222; /* Dark background color for sections */
+  color: #fff; /* White text color for sections */
 }
 
 .section-container {
@@ -180,7 +185,6 @@ section {
 
 .section__pic-container img {
   border-radius: 50%;
-  /* Use a percentage to make the border completely rounded */
 }
 
 .section__text {
@@ -231,7 +235,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: #333 0.1rem solid; /* Dark border color for buttons */
 }
 
 .btn-color-1:hover,
@@ -241,12 +245,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  background: #333; /* Dark background color for buttons */
+  color: #fff; /* White text color for buttons */
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: #000; /* Even darker background color on hover */
 }
 
 .btn-color-2 {
@@ -254,7 +258,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: #fff 0.1rem solid; /* White border color for buttons on hover */
 }
 
 .btn-container {
@@ -266,6 +270,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  color: #fff; /* White color for icons */
 }
 
 /* ABOUT SECTION */
@@ -303,10 +308,9 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #333; /* Dark background color for section details containers */
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: #444 0.1rem solid; /* Dark border color for section details containers */
   text-align: center;
 }
 
@@ -319,8 +323,6 @@ section {
   display: flex;
   gap: 1.6rem;
   text-align: left;
-  /* flex-direction: column; 
-  justify-content: space-between; */
 }
 
 /* EXPERIENCE SECTION */
@@ -330,7 +332,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: #fff; /* White text color */
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -354,7 +356,6 @@ section {
 article {
   display: flex;
   width: 10rem;
-  /* justify-content: space-around; */
   align-items: center;
   gap: 0.5rem;
 }
@@ -370,8 +371,8 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border-color: #444; /* Dark border color for project details containers */
+  background-color: #333; /* Dark background color for project details containers */
 }
 
 .project-img {
@@ -382,12 +383,12 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: #fff; /* White text color */
 }
 
 .project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+  color: #fff; /* White text color */
+  border-color: #444; /* Dark border color for project buttons */
 }
 
 /* CONTACT */
@@ -396,16 +397,15 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  background-color: #222; /* Dark background color for contact section */
 }
 
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  border: #444 0.1rem solid; /* Dark border color */
+  background: #333; /* Dark background color */
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -435,6 +435,8 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  background-color: #111; /* Even darker background color for the footer */
+  color: #fff; /* White text color for the footer */
 }
 
 footer p {
