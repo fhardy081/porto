@@ -183,7 +183,7 @@ section {
   border-radius: 40%;
 }
 
-.section__pic-container img {
+.profile-pic {
   border-radius: 50%;
 }
 
@@ -434,11 +434,12 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
-  background-color: #111; /* Even darker background color for the footer */
+  margin: 0 0;
+  background-color: #222; /* Even darker background color for the footer */
   color: #fff; /* White text color for the footer */
 }
 
 footer p {
   text-align: center;
+  padding: 2rem;
 }
