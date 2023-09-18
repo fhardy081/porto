@@ -289,7 +289,7 @@ section {
 .about-details-container {
   /* justify-content: center; */
   flex-direction: column;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .about-containers,
