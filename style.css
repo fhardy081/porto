@@ -349,8 +349,8 @@ section {
 .article-container {
   display: flex;
   text-align: initial;
-  /* flex-wrap: wrap; */
-  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   gap: 2.5rem;
   justify-content: space-around;
 }
