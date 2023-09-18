@@ -271,6 +271,7 @@ section {
   cursor: pointer;
   height: 2rem;
   color: #fff; /* White color for icons */
+  fill: white;
 }
 
 /* ABOUT SECTION */
@@ -286,8 +287,9 @@ section {
 }
 
 .about-details-container {
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
+  overflow: scroll;
 }
 
 .about-containers,
@@ -347,8 +349,8 @@ section {
 .article-container {
   display: flex;
   text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
   gap: 2.5rem;
   justify-content: space-around;
 }
