@@ -84,6 +84,11 @@
         flex-wrap: wrap;
     }
 
+    #projects .about-containers{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .contact-info-container {
         margin: 0;
     }
