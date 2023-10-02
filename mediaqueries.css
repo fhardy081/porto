@@ -76,11 +76,6 @@
         display: flex;
     }
 
-    #contact,
-    footer {
-        height: 40vh;
-    }
-
     #profile {
         height: 83vh;
         margin-bottom: 0;
@@ -109,6 +104,7 @@
 
     .contact-info-container {
         margin: 0;
+        padding: 1rem 0;
     }
 
     .contact-info-container p,

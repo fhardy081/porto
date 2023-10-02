@@ -414,9 +414,10 @@ article .icon {
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
-  border-radius: 2rem;
-  border: #444 0.1rem solid; /* Dark border color */
-  background: #333; /* Dark background color */
+  flex-direction: column;
+  /* border-radius: 2rem;
+  border: #444 0.1rem solid; 
+  background: #333;  */
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -424,7 +425,7 @@ article .icon {
 .contact-info-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 0.5rem;
   margin: 1rem;
 }
@@ -435,11 +436,11 @@ article .icon {
 
 .contact-icon {
   cursor: default;
-}
-
-.email-icon {
+  margin-right: 2rem;
   height: 2.5rem;
 }
+
+
 
 /* FOOTER SECTION */
 
